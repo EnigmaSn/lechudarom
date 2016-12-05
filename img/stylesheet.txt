@@ -1,0 +1,89 @@
+.sprite {
+    background-image: url(spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.sprite-1 {
+    width: 41px;
+    height: 41px;
+    background-position: -10px -10px;
+}
+
+.sprite-2 {
+    width: 41px;
+    height: 41px;
+    background-position: -71px -10px;
+}
+
+.sprite-3 {
+    width: 41px;
+    height: 41px;
+    background-position: -132px -10px;
+}
+
+.sprite-mail {
+    width: 14px;
+    height: 11px;
+    background-position: -193px -10px;
+}
+
+.sprite-mail2 {
+    width: 14px;
+    height: 11px;
+    background-position: -227px -10px;
+}
+
+.sprite-map {
+    width: 16px;
+    height: 19px;
+    background-position: -261px -10px;
+}
+
+.sprite-map2 {
+    width: 15px;
+    height: 17px;
+    background-position: -297px -10px;
+}
+
+.sprite-medicine {
+    width: 34px;
+    height: 34px;
+    background-position: -332px -10px;
+}
+
+.sprite-medicine-desktop {
+    width: 58px;
+    height: 58px;
+    background-position: -386px -10px;
+}
+
+.sprite-medicine-tablet {
+    width: 41px;
+    height: 41px;
+    background-position: -464px -10px;
+}
+
+.sprite-menu-mobile {
+    width: 36px;
+    height: 36px;
+    background-position: -525px -10px;
+}
+
+.sprite-menu-tablet {
+    width: 36px;
+    height: 36px;
+    background-position: -581px -10px;
+}
+
+.sprite-phone {
+    width: 15px;
+    height: 15px;
+    background-position: -637px -10px;
+}
+
+.sprite-phone2 {
+    width: 15px;
+    height: 15px;
+    background-position: -672px -10px;
+}

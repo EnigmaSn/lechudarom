@@ -1,0 +1,113 @@
+.page-header__wrapper {
+  @include container;
+  position: relative;
+  padding-bottom: 12px;
+}
+.page-header__logo {
+  padding-top: 20px;
+}
+.page-header__info {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin-left: 40px;
+  margin-top: -35px;
+  height: 60px;
+    span, a {
+      width: 200px;
+      font-size: 13px;
+      line-height: 25px;
+      font-weight:  700;
+    }
+}
+.page-header__adress {
+  position: relative;
+  padding-right: 30px;
+}
+.page-header__adress::before {
+  content: "";
+  display: block;
+  width: 16px;
+  height: 19px;
+  background-position: -261px -10px;
+  background-image: url("../img/spritesheet.png");
+  position: absolute;
+  left: -30px;
+  top: 15px;
+}
+.page-header__phone {
+  position: relative;
+}
+.page-header__phone::before {
+  content: "";
+  display: block;
+  position: absolute;
+  left: -25px;
+  top: 7px;
+  width: 15px;
+  height: 15px;
+  background-position: -637px -10px;
+  background-image: url("../img/spritesheet.png");
+}
+.page-header__email {
+  position: relative;
+}
+.page-header__email::before {
+  content: "";
+  display: block;
+  position: absolute;
+  left: -25px;
+  top: 7px;
+  background-image: url("../img/spritesheet.png");
+  width: 14px;
+  height: 11px;
+  background-position: -193px -10px;
+}
+
+.page-header__menu-close {
+  position: absolute;
+  top: 20px;
+  right: 60px;
+    a {
+      position: relative;
+      text-decoration: none;
+      color: $green;
+      font-size: 11px;
+      text-transform: uppercase;
+      font-weight: bolder;
+    }
+    a::after {
+      content: "";
+      display: block;
+      position: absolute;
+      top: -10px;
+      right: -45px;
+      background-image: url("../img/spritesheet.png");
+      width: 36px;
+      height: 36px;
+      background-position: -525px -10px;
+    }
+}
+.page-header__menu-open {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  position: absolute;
+  top: 55px;
+  right: 0px;
+  display: none;
+    li {
+      background-color: $green;
+      width: 170px;
+      border-bottom: 1px solid $white;
+      padding: 5px;
+      text-align: center;
+    }
+    a {
+      text-decoration: none;
+      color: $white;
+      text-transform: uppercase;
+      font-size: 11px;
+
+    }
+}

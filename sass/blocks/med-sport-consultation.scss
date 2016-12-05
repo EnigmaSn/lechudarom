@@ -1,0 +1,108 @@
+.med-sport-consultation__wrapper {
+  @include container;
+  background-color: #f2f2f2;
+  padding-bottom: 10px;
+
+    p {
+      font-size: 13px;
+      line-height: 16px;
+      margin: 0;
+      padding: 50px 15px 0;
+      font-weight: bold;
+      margin-bottom: 30px;
+    }
+}
+.med-sport-consultation__service {
+  background-color: #fff;
+  width: 345px;
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding-top: 30px;
+  padding-left: 30px;
+  padding-bottom: 20px;
+  position: relative;
+  background-position: center;
+  background-image: url("../img/bodybuilding-mob.png");
+  margin-bottom : 30px;
+    &:nth-child(3) {
+      background-image: url("../img/bodybuilding-mob2.png");
+      padding-bottom: 57px;
+        &::before {
+          position: absolute;
+          left: 10px;
+          top: 10px;
+          content: "";
+          display: block;
+          width: 319px;
+          height: 220px;
+          border: 3px solid $green;
+        }
+        h2 {
+          width: 180px;
+        }
+    }
+    &:nth-child(4) {
+      background-image: url("../img/bodybuilding-mob3.png");
+      padding-bottom: 60px;
+
+        &::before {
+          position: absolute;
+          left: 10px;
+          top: 10px;
+          content: "";
+          display: block;
+          width: 319px;
+          height: 220px;
+          border: 3px solid $green;
+        }
+        h2 {
+          width: 250px;
+        }
+        li {
+          padding-right: 20px;
+        }
+    }
+    &::before {
+      position: absolute;
+      left: 10px;
+      top: 10px;
+      content: "";
+      display: block;
+      width: 319px;
+      height: 210px;
+      border: 3px solid $green;
+    }
+    h2 {
+      font-size: 15px;
+      width: 100px;
+      color: $green;
+      margin: 0;
+    }
+    ul {
+      margin: 0;
+      padding: 0;
+
+    }
+    li {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      font-size: 15px;
+    }
+    p {
+      margin: 0;
+      padding: 0;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      text-decoration: underline;
+    }
+    > span {
+      display: block;
+      color: $green;
+      font-size: 15px;
+
+        > span {
+          font-size: 20px;
+        }
+    }
+}
