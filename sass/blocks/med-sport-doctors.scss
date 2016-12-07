@@ -1,0 +1,11 @@
+.med-sport-doctors__wrapper {
+  @include container;
+
+    p {
+      font-size: 13px;
+      line-height: 16px;
+      border-left: 3px solid $green;
+      margin: 20px 20px 20px 15px;
+      padding-left: 25px;
+    }
+}

@@ -323,6 +323,7 @@ body {
 .med-sport-consultation__service {
   background-color: #fff;
   width: 345px;
+  height: 246px;
   box-sizing: border-box;
   margin: 0 auto;
   padding-top: 30px;
@@ -369,7 +370,7 @@ body {
     content: "";
     display: block;
     width: 319px;
-    height: 210px;
+    height: 220px;
     border: 3px solid #1fc9be; }
   .med-sport-consultation__service h2 {
     font-size: 15px;
@@ -396,3 +397,169 @@ body {
     font-size: 15px; }
     .med-sport-consultation__service > span > span {
       font-size: 20px; }
+
+.med-sport-doctors__wrapper {
+  width: 480px;
+  margin: 0 auto; }
+  @media (min-width: 850px) {
+    .med-sport-doctors__wrapper {
+      width: 850px; } }
+  @media (min-width: 1280px) {
+    .med-sport-doctors__wrapper {
+      width: 1280px; } }
+  .med-sport-doctors__wrapper p {
+    font-size: 13px;
+    line-height: 16px;
+    border-left: 3px solid #1fc9be;
+    margin: 20px 20px 20px 15px;
+    padding-left: 25px; }
+
+.comment__wrapper {
+  width: 480px;
+  margin: 0 auto; }
+  @media (min-width: 850px) {
+    .comment__wrapper {
+      width: 850px; } }
+  @media (min-width: 1280px) {
+    .comment__wrapper {
+      width: 1280px; } }
+  .comment__wrapper h2 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 15px;
+    margin-top: 30px; }
+  .comment__wrapper input,
+  .comment__wrapper textarea {
+    border: 2px solid #1fc9be;
+    margin-top: 20px;
+    width: 450px;
+    margin-left: 15px;
+    margin-right: 15px;
+    padding: 20px;
+    box-sizing: border-box;
+    color: black;
+    outline: none; }
+    .comment__wrapper input ::-webkit-input-placeholder,
+    .comment__wrapper textarea ::-webkit-input-placeholder {
+      font-size: 14px;
+      color: black; }
+    .comment__wrapper input ::-moz-placeholder,
+    .comment__wrapper textarea ::-moz-placeholder {
+      font-size: 14px;
+      color: black; }
+    .comment__wrapper input :-moz-placeholder,
+    .comment__wrapper textarea :-moz-placeholder {
+      font-size: 14px;
+      color: black; }
+    .comment__wrapper input :-ms-input-placeholder,
+    .comment__wrapper textarea :-ms-input-placeholder {
+      font-size: 14px;
+      color: black; }
+  .comment__wrapper button {
+    width: auto;
+    margin: 15px auto 30px;
+    display: block;
+    border: 0px solid #1fc9be;
+    border-radius: 50px;
+    background-color: #1fc9be;
+    padding: 10px 30px;
+    color: #ffffff;
+    text-transform: uppercase;
+    outline: none; }
+
+.page-footer__wrapper {
+  width: 480px;
+  margin: 0 auto; }
+  @media (min-width: 850px) {
+    .page-footer__wrapper {
+      width: 850px; } }
+  @media (min-width: 1280px) {
+    .page-footer__wrapper {
+      width: 1280px; } }
+
+.page-footer__inner {
+  background-color: #1fc9be;
+  background-image: url("../img/doc-mob.jpg");
+  height: 400px; }
+  .page-footer__inner h2,
+  .page-footer__inner li {
+    color: #ffffff;
+    text-transform: uppercase; }
+  .page-footer__inner h2 {
+    font-size: 20px;
+    padding-top: 25px;
+    margin-left: 45px; }
+  .page-footer__inner li {
+    font-size: 14px;
+    line-height: 20px;
+    list-style: none;
+    margin: 0;
+    padding: 0; }
+  .page-footer__inner ul {
+    margin: 0;
+    padding: 0; }
+
+.page-footer__pains-lists {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 45px;
+  margin-right: 15px;
+  margin-bottom: 15px; }
+
+.page-footer__info {
+  color: #ffffff;
+  margin-left: 60px;
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+  line-height: 20px;
+  padding-bottom: 30px; }
+  .page-footer__info a,
+  .page-footer__info span {
+    padding-bottom: 10px;
+    position: relative;
+    width: 270px; }
+  .page-footer__info span:last-child {
+    padding-bottom: 0;
+    width: auto; }
+
+.page-footer__about {
+  margin-left: 45px;
+  font-size: 14px;
+  line-height: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-weight: bold; }
+
+.page-footer__adress::before {
+  content: "";
+  display: block;
+  width: 15px;
+  height: 17px;
+  background-position: -297px -10px;
+  background-image: url("../img/spritesheet.png");
+  position: absolute;
+  left: -30px;
+  top: 13px; }
+
+.page-footer__phone::before {
+  content: "";
+  display: block;
+  position: absolute;
+  left: -30px;
+  top: 4px;
+  width: 15px;
+  height: 15px;
+  background-position: -672px -10px;
+  background-image: url("../img/spritesheet.png"); }
+
+.page-footer__email::before {
+  content: "";
+  display: block;
+  position: absolute;
+  left: -30px;
+  top: 5px;
+  background-image: url("../img/spritesheet.png");
+  width: 14px;
+  height: 11px;
+  background-position: -227px -10px; }

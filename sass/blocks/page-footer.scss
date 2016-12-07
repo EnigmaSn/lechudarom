@@ -1,0 +1,97 @@
+.page-footer__wrapper {
+  @include container;
+}
+.page-footer__inner {
+  background-color: $green;
+  background-image: url("../img/doc-mob.jpg");
+  height: 400px;
+    h2,
+    li {
+      color: $white;
+      text-transform: uppercase;
+    }
+    h2 {
+      font-size: 20px;
+      padding-top: 25px;
+      margin-left: 45px;
+    }
+    li {
+      font-size: 14px;
+      line-height: 20px;
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+    ul {
+      margin: 0;
+      padding: 0;
+    }
+}
+.page-footer__pains-lists {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 45px;
+  margin-right: 15px;
+  margin-bottom: 15px;
+}
+.page-footer__info {
+  color: $white;
+  margin-left: 60px;
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+  line-height: 20px;
+  padding-bottom: 30px;
+
+    a,
+    span {
+      padding-bottom: 10px;
+      position: relative;
+      width: 270px;
+    }
+    span:last-child {
+      padding-bottom: 0;
+      width: auto;
+    }
+}
+.page-footer__about {
+  margin-left: 45px;
+  font-size: 14px;
+  line-height: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.page-footer__adress::before {
+  content: "";
+  display: block;
+  width: 15px;
+  height: 17px;
+  background-position: -297px -10px;
+  background-image: url("../img/spritesheet.png");
+  position: absolute;
+  left: -30px;
+  top: 13px;
+}
+.page-footer__phone::before {
+  content: "";
+  display: block;
+  position: absolute;
+  left: -30px;
+  top: 4px;
+  width: 15px;
+  height: 15px;
+  background-position: -672px -10px;
+  background-image: url("../img/spritesheet.png");
+}
+.page-footer__email::before {
+  content: "";
+  display: block;
+  position: absolute;
+  left: -30px;
+  top: 5px;
+  background-image: url("../img/spritesheet.png");
+  width: 14px;
+  height: 11px;
+background-position: -227px -10px;}
