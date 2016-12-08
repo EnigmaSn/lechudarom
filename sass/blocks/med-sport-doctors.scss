@@ -1,6 +1,9 @@
 .med-sport-doctors__wrapper {
   @include container;
 
+    h2 {
+      font-size: 20px;
+    }
     p {
       font-size: 13px;
       line-height: 16px;
@@ -8,4 +11,26 @@
       margin: 20px 20px 20px 15px;
       padding-left: 25px;
     }
+}
+@media #{$tablet-widths} {
+  .med-sport-doctors__wrapper {
+
+    p {
+      font-size: 14px;
+      margin-left: 60px;
+      margin-right: 60px;
+      margin-top: 50px;
+    }
+  }
+}
+@media #{$desktop-widths} {
+  .med-sport-doctors__wrapper {
+
+    p {
+      font-size: 15px;
+      margin-left: 60px;
+      margin-right: 260px;
+      margin-top: 50px;
+    }
+  }
 }

@@ -25,9 +25,13 @@
   background-position: center;
   background-image: url("../img/bodybuilding-mob.png");
   margin-bottom : 30px;
-    &:nth-child(3) {
+    &:nth-child(2) {
       background-image: url("../img/bodybuilding-mob2.png");
+    }
+    &:nth-child(3) {
+      background-image: url("../img/bodybuilding-mob3.png");
       padding-bottom: 57px;
+      padding-right: 10px;
         &::before {
           position: absolute;
           left: 10px;
@@ -39,7 +43,7 @@
           border: 3px solid $green;
         }
         h2 {
-          width: 180px;
+          width: 230px;
         }
     }
     &:nth-child(4) {
@@ -106,4 +110,58 @@
           font-size: 20px;
         }
     }
+}
+@media #{$tablet-widths} {
+  .med-sport-consultation__wrapper {
+
+      >p {
+        padding-left: 90px;
+        padding-right: 100px;
+        font-size: 15px;
+      }
+  }
+  .med-sport-consultation__service-items {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  .med-sport-consultation__service {
+
+      h2 {
+        font-size: 15px;
+      }
+      p {
+        font-size: 14px;
+      }
+      li {
+        font-size: 15px;
+      }
+      span {
+        font-size: 15px;
+      }
+  }
+}
+@media #{$desktop-widths} {
+  .med-sport-consultation__wrapper {
+    padding-bottom: 30px;
+      >p {
+        width: 700px;
+        font-weight: normal;
+          span {
+            font-weight: bold;
+          }
+      }
+
+  }
+  .med-sport-consultation__service {
+    width: 345px;
+    background-image: url("../img/bodybuilding-desktop.png");
+    &:nth-child(2) {
+      background-image: url("../img/bodybuilding-desktop2.png");
+    }
+    &:nth-child(3) {
+      background-image: url("../img/bodybuilding-desktop3.png");
+    }
+  }
 }

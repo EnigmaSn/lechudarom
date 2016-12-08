@@ -120,3 +120,117 @@
     border-left: 3px solid $green;
   }
 }
+
+@media #{$tablet-widths} {
+  .med-sport-info__about {
+    p {
+      font-size: 14px;
+      margin: 50px 15px 25px 65px;
+    }
+  }
+  .med-sport-info__about-problems {
+    background-image: url("../img/pils-tablet.jpg");
+      p {
+        font-size: 14px;
+        width:  520px;
+        margin-left: 90px;
+      }
+  }
+  .med-sport-info__main-problems {
+      padding-top: 45px;
+      padding-bottom: 20px;
+       ul {
+         margin-left: 135px;
+       }
+       li {
+         margin-right: 60px;
+         margin-bottom: 30px;
+         font-size: 14px;
+       }
+        li::before {
+          top: 50%;
+          left: -80px;
+          transform: translateY(-50%);
+        }
+  }
+  .med-sport-info__real-case {
+    background-image: url("../img/sport-doc-tablet.jpg");
+    padding-top: 45px;
+    padding-bottom: 20px;
+
+      &::before {
+        height: 220px;
+        left: 115px;
+      }
+      p {
+        margin: 0 auto;
+        width:  560px;
+        font-size: 14px;
+        margin-bottom: 30px;
+      }
+  }
+  .med-sport-info__case-conclusion {
+    padding-top: 35px;
+
+      p {
+        width:  660px;
+        font-size: 14px;
+        margin: 0 15px 0 65px;
+        padding-left: 20px;
+      }
+  }
+}
+
+@media #{$desktop-widths} {
+  .med-sport-info__about {
+    p {
+      font-size: 15px;
+      margin: 50px 55px 25px 75px;
+    }
+  }
+  .med-sport-info__about-problems {
+    background-image: url("../img/pils-desktop.jpg");
+    padding-bottom: 60px;
+      p {
+        font-size: 15px;
+        margin-left: 95px;
+      }
+  }
+  .med-sport-info__main-problems {
+      padding-bottom: 20px;
+       ul {
+         margin-left: 165px;
+       }
+       li {
+         margin-right: 150px;
+         margin-bottom: 30px;
+         font-size: 15px;
+         line-height: 20px;
+       }
+        li::before {
+          top: 50%;
+          left: -80px;
+          transform: translateY(-50%);
+        }
+  }
+  .med-sport-info__real-case {
+    background-image: url("../img/sport-doc-tablet.jpg");
+    padding-bottom: 30px;
+      &::before {
+        left: 325px;
+      }
+      p {
+        font-size: 15px;
+      }
+  }
+  .med-sport-info__case-conclusion {
+    padding-top: 45px;
+
+      p {
+        width:  auto;
+        font-size: 15px;
+        margin: 0 80px 20px 65px;
+        padding-left: 20px;
+      }
+  }
+}

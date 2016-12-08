@@ -24,7 +24,7 @@
       display: block;
       width: 34px;
       height: 34px;
-      background-position: -332px -10px;
+      background-position: -375px -10px;
       background-image: url("../img/spritesheet.png");
       position: absolute;
       top: -45px;
@@ -50,4 +50,62 @@
       margin-left: auto;
       margin-right: auto;
     }
+}
+
+@media #{$tablet-widths} {
+  .med-sport-service__wrapper {
+    background-image: url("../img/man-tablet.jpg");
+  }
+  .med-sport-service__text {
+    right: 30px;
+    top: 20px;
+    width: 450px;
+      h1 {
+        font-size: 20px;
+      }
+      h1::before {
+        width: 41px;
+        height: 41px;
+        background-position: -507px -10px;
+        top: -60px;
+        right: 210px;
+      }
+      p {
+        margin-bottom: 15px;
+        font-size: 14px;
+      }
+      a {
+        width: 180px;
+      }
+  }
+}
+
+@media #{$desktop-widths} {
+  .med-sport-service__wrapper {
+    background-image: url("../img/man-desktop.jpg");
+    height: 520px;
+  }
+  .med-sport-service__text {
+    right: 40px;
+    top: 125px;
+    width: 490px;
+      h1 {
+        font-size: 28px;
+      }
+      h1::before {
+        width: 58px;
+        height: 58px;
+        background-position: -429px -10px;
+        top: -95px;
+        right: 230px;
+      }
+      p {
+        margin-top: 30px;
+        margin-bottom: 40px;
+        font-size: 16px;
+      }
+      a {
+        width: 180px;
+      }
+  }
 }

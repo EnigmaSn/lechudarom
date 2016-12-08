@@ -40,50 +40,56 @@
     background-position: -261px -10px;
 }
 
+.sprite-map-tablet {
+    width: 23px;
+    height: 28px;
+    background-position: -297px -10px;
+}
+
 .sprite-map2 {
     width: 15px;
     height: 17px;
-    background-position: -297px -10px;
+    background-position: -340px -10px;
 }
 
 .sprite-medicine {
     width: 34px;
     height: 34px;
-    background-position: -332px -10px;
+    background-position: -375px -10px;
 }
 
 .sprite-medicine-desktop {
     width: 58px;
     height: 58px;
-    background-position: -386px -10px;
+    background-position: -429px -10px;
 }
 
 .sprite-medicine-tablet {
     width: 41px;
     height: 41px;
-    background-position: -464px -10px;
+    background-position: -507px -10px;
 }
 
 .sprite-menu-mobile {
     width: 36px;
     height: 36px;
-    background-position: -525px -10px;
+    background-position: -568px -10px;
 }
 
 .sprite-menu-tablet {
     width: 36px;
     height: 36px;
-    background-position: -581px -10px;
+    background-position: -624px -10px;
 }
 
 .sprite-phone {
     width: 15px;
     height: 15px;
-    background-position: -637px -10px;
+    background-position: -680px -10px;
 }
 
 .sprite-phone2 {
     width: 15px;
     height: 15px;
-    background-position: -672px -10px;
+    background-position: -715px -10px;
 }

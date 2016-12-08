@@ -50,3 +50,11 @@
       outline: none;
     }
 }
+@media #{$tablet-widths} {
+  .med-sport-doctors__wrapper {
+    padding-left: 100px;
+  }
+}
+@media #{$desktop-widths} {
+
+}

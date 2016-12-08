@@ -76,7 +76,7 @@ body {
   top: 7px;
   width: 15px;
   height: 15px;
-  background-position: -637px -10px;
+  background-position: -680px -10px;
   background-image: url("../img/spritesheet.png"); }
 
 .page-header__email {
@@ -113,7 +113,7 @@ body {
     background-image: url("../img/spritesheet.png");
     width: 36px;
     height: 36px;
-    background-position: -525px -10px; }
+    background-position: -568px -10px; }
 
 .page-header__menu-open {
   margin: 0;
@@ -134,6 +134,29 @@ body {
     color: #ffffff;
     text-transform: uppercase;
     font-size: 11px; }
+
+@media (min-width: 850px) {
+  .page-header__wrapper {
+    display: flex; }
+  .page-header__logo {
+    margin-left: 40px; }
+  .page-header__info {
+    margin: 0;
+    margin-top: 25px;
+    margin-left: 70px;
+    height: 50px; }
+    .page-header__info span, .page-header__info a {
+      width: 200px;
+      font-size: 13px;
+      line-height: 25px;
+      font-weight: 700;
+      margin-right: 100px; }
+  .page-header__adress::before {
+    width: 23px;
+    height: 28px;
+    background-position: -297px -10px;
+    left: -30px;
+    top: 13px; } }
 
 .med-sport-service__wrapper {
   width: 480px;
@@ -166,7 +189,7 @@ body {
     display: block;
     width: 34px;
     height: 34px;
-    background-position: -332px -10px;
+    background-position: -375px -10px;
     background-image: url("../img/spritesheet.png");
     position: absolute;
     top: -45px;
@@ -189,6 +212,50 @@ body {
     width: 160px;
     margin-left: auto;
     margin-right: auto; }
+
+@media (min-width: 850px) {
+  .med-sport-service__wrapper {
+    background-image: url("../img/man-tablet.jpg"); }
+  .med-sport-service__text {
+    right: 30px;
+    top: 20px;
+    width: 450px; }
+    .med-sport-service__text h1 {
+      font-size: 20px; }
+    .med-sport-service__text h1::before {
+      width: 41px;
+      height: 41px;
+      background-position: -507px -10px;
+      top: -60px;
+      right: 210px; }
+    .med-sport-service__text p {
+      margin-bottom: 15px;
+      font-size: 14px; }
+    .med-sport-service__text a {
+      width: 180px; } }
+
+@media (min-width: 1280px) {
+  .med-sport-service__wrapper {
+    background-image: url("../img/man-desktop.jpg");
+    height: 520px; }
+  .med-sport-service__text {
+    right: 40px;
+    top: 125px;
+    width: 490px; }
+    .med-sport-service__text h1 {
+      font-size: 28px; }
+    .med-sport-service__text h1::before {
+      width: 58px;
+      height: 58px;
+      background-position: -429px -10px;
+      top: -95px;
+      right: 230px; }
+    .med-sport-service__text p {
+      margin-top: 30px;
+      margin-bottom: 40px;
+      font-size: 16px; }
+    .med-sport-service__text a {
+      width: 180px; } }
 
 .med-sport-info__wrapper {
   width: 480px;
@@ -301,6 +368,87 @@ body {
     font-weight: bold;
     border-left: 3px solid #1fc9be; }
 
+@media (min-width: 850px) {
+  .med-sport-info__about p {
+    font-size: 14px;
+    margin: 50px 15px 25px 65px; }
+  .med-sport-info__about-problems {
+    background-image: url("../img/pils-tablet.jpg"); }
+    .med-sport-info__about-problems p {
+      font-size: 14px;
+      width: 520px;
+      margin-left: 90px; }
+  .med-sport-info__main-problems {
+    padding-top: 45px;
+    padding-bottom: 20px; }
+    .med-sport-info__main-problems ul {
+      margin-left: 135px; }
+    .med-sport-info__main-problems li {
+      margin-right: 60px;
+      margin-bottom: 30px;
+      font-size: 14px; }
+    .med-sport-info__main-problems li::before {
+      top: 50%;
+      left: -80px;
+      transform: translateY(-50%); }
+  .med-sport-info__real-case {
+    background-image: url("../img/sport-doc-tablet.jpg");
+    padding-top: 45px;
+    padding-bottom: 20px; }
+    .med-sport-info__real-case::before {
+      height: 220px;
+      left: 115px; }
+    .med-sport-info__real-case p {
+      margin: 0 auto;
+      width: 560px;
+      font-size: 14px;
+      margin-bottom: 30px; }
+  .med-sport-info__case-conclusion {
+    padding-top: 35px; }
+    .med-sport-info__case-conclusion p {
+      width: 660px;
+      font-size: 14px;
+      margin: 0 15px 0 65px;
+      padding-left: 20px; } }
+
+@media (min-width: 1280px) {
+  .med-sport-info__about p {
+    font-size: 15px;
+    margin: 50px 55px 25px 75px; }
+  .med-sport-info__about-problems {
+    background-image: url("../img/pils-desktop.jpg");
+    padding-bottom: 60px; }
+    .med-sport-info__about-problems p {
+      font-size: 15px;
+      margin-left: 95px; }
+  .med-sport-info__main-problems {
+    padding-bottom: 20px; }
+    .med-sport-info__main-problems ul {
+      margin-left: 165px; }
+    .med-sport-info__main-problems li {
+      margin-right: 150px;
+      margin-bottom: 30px;
+      font-size: 15px;
+      line-height: 20px; }
+    .med-sport-info__main-problems li::before {
+      top: 50%;
+      left: -80px;
+      transform: translateY(-50%); }
+  .med-sport-info__real-case {
+    background-image: url("../img/sport-doc-tablet.jpg");
+    padding-bottom: 30px; }
+    .med-sport-info__real-case::before {
+      left: 325px; }
+    .med-sport-info__real-case p {
+      font-size: 15px; }
+  .med-sport-info__case-conclusion {
+    padding-top: 45px; }
+    .med-sport-info__case-conclusion p {
+      width: auto;
+      font-size: 15px;
+      margin: 0 80px 20px 65px;
+      padding-left: 20px; } }
+
 .med-sport-consultation__wrapper {
   width: 480px;
   margin: 0 auto;
@@ -333,9 +481,12 @@ body {
   background-position: center;
   background-image: url("../img/bodybuilding-mob.png");
   margin-bottom: 30px; }
+  .med-sport-consultation__service:nth-child(2) {
+    background-image: url("../img/bodybuilding-mob2.png"); }
   .med-sport-consultation__service:nth-child(3) {
-    background-image: url("../img/bodybuilding-mob2.png");
-    padding-bottom: 57px; }
+    background-image: url("../img/bodybuilding-mob3.png");
+    padding-bottom: 57px;
+    padding-right: 10px; }
     .med-sport-consultation__service:nth-child(3)::before {
       position: absolute;
       left: 10px;
@@ -346,7 +497,7 @@ body {
       height: 220px;
       border: 3px solid #1fc9be; }
     .med-sport-consultation__service:nth-child(3) h2 {
-      width: 180px; }
+      width: 230px; }
   .med-sport-consultation__service:nth-child(4) {
     background-image: url("../img/bodybuilding-mob3.png");
     padding-bottom: 60px; }
@@ -398,6 +549,41 @@ body {
     .med-sport-consultation__service > span > span {
       font-size: 20px; }
 
+@media (min-width: 850px) {
+  .med-sport-consultation__wrapper > p {
+    padding-left: 90px;
+    padding-right: 100px;
+    font-size: 15px; }
+  .med-sport-consultation__service-items {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 40px;
+    padding-right: 40px; }
+  .med-sport-consultation__service h2 {
+    font-size: 15px; }
+  .med-sport-consultation__service p {
+    font-size: 14px; }
+  .med-sport-consultation__service li {
+    font-size: 15px; }
+  .med-sport-consultation__service span {
+    font-size: 15px; } }
+
+@media (min-width: 1280px) {
+  .med-sport-consultation__wrapper {
+    padding-bottom: 30px; }
+    .med-sport-consultation__wrapper > p {
+      width: 700px;
+      font-weight: normal; }
+      .med-sport-consultation__wrapper > p span {
+        font-weight: bold; }
+  .med-sport-consultation__service {
+    width: 345px;
+    background-image: url("../img/bodybuilding-desktop.png"); }
+    .med-sport-consultation__service:nth-child(2) {
+      background-image: url("../img/bodybuilding-desktop2.png"); }
+    .med-sport-consultation__service:nth-child(3) {
+      background-image: url("../img/bodybuilding-desktop3.png"); } }
+
 .med-sport-doctors__wrapper {
   width: 480px;
   margin: 0 auto; }
@@ -407,12 +593,28 @@ body {
   @media (min-width: 1280px) {
     .med-sport-doctors__wrapper {
       width: 1280px; } }
+  .med-sport-doctors__wrapper h2 {
+    font-size: 20px; }
   .med-sport-doctors__wrapper p {
     font-size: 13px;
     line-height: 16px;
     border-left: 3px solid #1fc9be;
     margin: 20px 20px 20px 15px;
     padding-left: 25px; }
+
+@media (min-width: 850px) {
+  .med-sport-doctors__wrapper p {
+    font-size: 14px;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-top: 50px; } }
+
+@media (min-width: 1280px) {
+  .med-sport-doctors__wrapper p {
+    font-size: 15px;
+    margin-left: 60px;
+    margin-right: 260px;
+    margin-top: 50px; } }
 
 .comment__wrapper {
   width: 480px;
@@ -466,6 +668,10 @@ body {
     color: #ffffff;
     text-transform: uppercase;
     outline: none; }
+
+@media (min-width: 850px) {
+  .med-sport-doctors__wrapper {
+    padding-left: 100px; } }
 
 .page-footer__wrapper {
   width: 480px;

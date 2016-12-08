@@ -46,7 +46,7 @@
   top: 7px;
   width: 15px;
   height: 15px;
-  background-position: -637px -10px;
+  background-position: -680px -10px;
   background-image: url("../img/spritesheet.png");
 }
 .page-header__email {
@@ -85,7 +85,7 @@
       background-image: url("../img/spritesheet.png");
       width: 36px;
       height: 36px;
-      background-position: -525px -10px;
+      background-position: -568px -10px;
     }
 }
 .page-header__menu-open {
@@ -112,7 +112,35 @@
     }
 }
 @media #{$tablet-widths} {
+  .page-header__wrapper {
+    display: flex;
+  }
+  .page-header__logo {
+    margin-left: 40px;
+  }
+  .page-header__info {
+    margin: 0;
+    margin-top: 25px;
+    margin-left: 70px;
+    height: 50px;
 
+    span, a {
+      width: 200px;
+      font-size: 13px;
+      line-height: 25px;
+      font-weight:  700;
+      margin-right: 100px;
+    }
+  }
+  .page-header__adress {
+  }
+  .page-header__adress::before {
+    width: 23px;
+    height: 28px;
+    background-position: -297px -10px;
+    left: -30px;
+    top: 13px;
+  }
 }
 @media #{$desktop-widths} {
 
