@@ -233,14 +233,32 @@ body {
     display: block; } }
 
 @media (min-width: 1280px) {
+  .page-header__wrapper {
+    position: relative; }
+  .page-header__logo {
+    padding-top: 20px; }
+  .page-header__info {
+    margin-left: 11px;
+    position: absolute;
+    right: 310px;
+    height: 80px; }
+    .page-header__info a,
+    .page-header__info span {
+      font-size: 16px;
+      width: 300px;
+      margin-right: 0;
+      line-height: 30px; }
+    .page-header__info .page-header__adress {
+      padding: 0;
+      margin-right: 80px; }
   .page-header__tablet-menu {
     display: none; }
   .page-header__desktop-menu {
     display: flex;
     margin: 0;
     padding: 0;
-    margin-top: 90px;
-    margin-left: -585px;
+    margin-top: 115px;
+    margin-left: 0px;
     width: 100%;
     background-color: #1fc9be; }
     .page-header__desktop-menu li {
@@ -311,6 +329,9 @@ body {
     width: 160px;
     margin-left: auto;
     margin-right: auto; }
+  .med-sport-service__text a:hover {
+    color: #ffffff;
+    background-color: #1fc9be; }
 
 @media (min-width: 850px) {
   .med-sport-service__wrapper {
@@ -760,14 +781,18 @@ body {
     width: auto;
     margin: 15px auto 30px;
     display: block;
-    border: 0px solid #1fc9be;
+    border: 2px solid #1fc9be;
     border-radius: 50px;
     background-color: #1fc9be;
     padding: 10px 30px;
     color: #ffffff;
     text-transform: uppercase;
     outline: none;
-    cursor: pointer; }
+    cursor: pointer;
+    font-weight: bold; }
+  .comment__wrapper button:hover {
+    background-color: transparent;
+    color: #1fc9be; }
 
 @media (min-width: 850px) {
   .comment__wrapper {

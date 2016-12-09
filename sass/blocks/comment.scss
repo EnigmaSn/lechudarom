@@ -41,7 +41,7 @@
       width: auto;
       margin: 15px auto 30px;
       display: block;
-      border: 0px solid $green;
+      border: 2px solid $green;
       border-radius: 50px;
       background-color: $green;
       padding: 10px 30px;
@@ -49,6 +49,11 @@
       text-transform: uppercase;
       outline: none;
       cursor: pointer;
+      font-weight: bold;
+    }
+    button:hover {
+      background-color: transparent;
+      color: $green;
     }
 }
 @media #{$tablet-widths} {

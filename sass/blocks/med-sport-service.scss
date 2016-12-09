@@ -50,6 +50,10 @@
       margin-left: auto;
       margin-right: auto;
     }
+    a:hover {
+      color: $white;
+      background-color: $green;
+    }
 }
 
 @media #{$tablet-widths} {
