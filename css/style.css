@@ -612,7 +612,7 @@ body {
 @media (min-width: 1280px) {
   .med-sport-doctors__wrapper p {
     font-size: 15px;
-    margin-left: 60px;
+    margin-left: 70px;
     margin-right: 260px;
     margin-top: 50px; } }
 
@@ -667,11 +667,41 @@ body {
     padding: 10px 30px;
     color: #ffffff;
     text-transform: uppercase;
-    outline: none; }
+    outline: none;
+    cursor: pointer; }
 
 @media (min-width: 850px) {
-  .med-sport-doctors__wrapper {
-    padding-left: 100px; } }
+  .comment__wrapper {
+    padding-bottom: 20px; }
+    .comment__wrapper h2 {
+      margin-top: 45px;
+      margin-left: 150px; }
+    .comment__wrapper form {
+      margin-left: 150px;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      width: 590px; }
+    .comment__wrapper input {
+      width: 262px;
+      margin: 0; }
+      .comment__wrapper input:first-child {
+        margin-right: 35px; }
+    .comment__wrapper textarea {
+      width: 560px;
+      height: 155px;
+      margin-left: 0; }
+    .comment__wrapper button {
+      margin-right: 25px;
+      margin-left: auto;
+      margin-top: 30px;
+      padding: 20px 70px; } }
+
+@media (min-width: 1280px) {
+  .comment__wrapper h2 {
+    margin-left: 365px; }
+  .comment__wrapper form {
+    margin-left: 365px; } }
 
 .page-footer__wrapper {
   width: 480px;
@@ -742,7 +772,7 @@ body {
   display: block;
   width: 15px;
   height: 17px;
-  background-position: -297px -10px;
+  background-position: -340px -10px;
   background-image: url("../img/spritesheet.png");
   position: absolute;
   left: -30px;
@@ -756,7 +786,7 @@ body {
   top: 4px;
   width: 15px;
   height: 15px;
-  background-position: -672px -10px;
+  background-position: -715px -10px;
   background-image: url("../img/spritesheet.png"); }
 
 .page-footer__email::before {
@@ -769,3 +799,59 @@ body {
   width: 14px;
   height: 11px;
   background-position: -227px -10px; }
+
+@media (min-width: 850px) {
+  .page-footer__inner {
+    background-image: url("../img/doc-tablet.jpg");
+    height: 245px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around; }
+    .page-footer__inner h2 {
+      padding-top: 10px;
+      margin-left: -130px; }
+  .page-footer__pains-lists {
+    margin: 0;
+    padding: 0;
+    margin-left: -150px; }
+    .page-footer__pains-lists ul:first-child {
+      margin-right: 20px; }
+    .page-footer__pains-lists li {
+      line-height: 16px; }
+  .page-footer__info {
+    margin: 0;
+    margin-left: 60px;
+    margin-top: 45px; }
+    .page-footer__info a,
+    .page-footer__info span,
+    .page-footer__info span:last-child {
+      width: 260px; }
+  .page-footer__about {
+    margin-left: 230px; } }
+
+@media (min-width: 1280px) {
+  .page-footer__inner {
+    background-image: url("../img/doc-tablet.jpg");
+    height: 245px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around; }
+    .page-footer__inner h2 {
+      padding-top: 10px;
+      margin-left: -130px; }
+  .page-footer__pains-lists {
+    margin: 0;
+    padding: 0;
+    margin-left: -130px; }
+    .page-footer__pains-lists li {
+      line-height: 16px; }
+  .page-footer__info {
+    margin-left: -100px; }
+    .page-footer__info a,
+    .page-footer__info span {
+      font-size: 16px;
+      margin-bottom: 10px; }
+    .page-footer__info span:last-child {
+      width: auto; }
+  .page-footer__about {
+    margin-left: 440px; } }
