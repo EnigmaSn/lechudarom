@@ -129,7 +129,7 @@
     padding-bottom: 0;
   }
   .page-header__logo {
-    margin-left: 40px;
+    padding-left: 40px;
   }
   .page-header__info {
     margin: 0;
@@ -166,8 +166,8 @@
     margin: 0;
     padding: 0;
     margin-top: 90px;
-    margin-left: -585px;
-    width: 100%;
+    margin-left: -588px;
+    width: 860px;
     background-color: $green;
       li {
         list-style: none;
@@ -263,13 +263,13 @@
     margin: 0;
     padding: 0;
     margin-top: 115px;
-    margin-left: 0px;
-    width: 100%;
+    margin-left: -244px;
+    width: 1280px;
     background-color: $green;
 
     li {
       list-style: none;
-      padding: 13px 12px;
+      padding: 13px 25px;
     }
     li:hover {
       background-color: #15beb3;
